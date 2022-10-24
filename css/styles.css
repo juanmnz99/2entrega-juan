@@ -3,48 +3,52 @@ body{
     margin: 0;
 
 }
-a{
-    text-decoration: none;
-    color: white;
-    
-}
-
-
-.nav-link:hover{
-    color: rgb(211, 22, 201);
-
-}
-
 header{
     display: flex;
     justify-content: space-between;
-    min-height: 70px;
+    min-height: 80px;
     background-color: grey;
+    margin: 10px;
     align-items: center;
-    padding: 10px;
-
+}
+h2{
+    font-weight: 800;
 }
 .logo{
     display: flex;
     align-items: center;
 }
 .logo img{
-    height: 50px;
+    height: 120px;
     margin-right: 10px;
 }
-nav a{
-    font-weight: 600;
-    padding-right: 10px;
-
+a{
+    text-decoration: none;
+    color: white;
 }
 
-@media (max-width:700px){
+.menu-link{
+    display: flex;
+    align-items: center;
+}
+.menu-link a{
+    margin: 10px 20px -10px;
+    padding-right: 30px;
+    font-weight: 600;
+}
+.menu-link a:hover{
+    color:rgb(211, 22, 201) ;
+    background-color: yellow;
+    border-radius: 5px;
+}
+@media (max-whidth:600px){
     header{
         flex-direction: column;
     }
-    nav{
-        padding: 10px 0px;
+    .menu-link a{
+        flex-direction: column;
     }
+
 }
 .cuerpo {
     background-color: black;
@@ -54,11 +58,13 @@ nav a{
     color: white;
 }
 .btn-primary:hover{
-    background-color: rgb(211, 22, 201);
+    background-color: yellow;
+    color: #222222;
 }
 .btn-primary{
-    background-color: yellow;
-    color: black;
+    background-color:rgb(211, 22, 201);
+    color:black;
+    font-weight: 600;
 }
 .card-body{
     background-color: grey;
@@ -85,6 +91,7 @@ h3{
 }
 footer{
     background-color: gray;
+    width: 100%;
 }
 
 .contact-wrapper {
@@ -123,14 +130,14 @@ footer{
     width: 100%;
     padding: .7em;
     border: none;
-    background: rgb(211, 22, 201;
+    background: white;
     outline: 0;
-    color: rgb(211, 22, 201;
-    border-bottom: 1px solid rgb(211, 22, 201;
+    color: rgb(211, 22, 201);
+    border-bottom: 1px solid yellow;
 }
 
 .contact-form form button {
-    background: rgb(211, 22, 201;
+    background: white;
     border: 0;
     text-transform: uppercase;
     padding: 1em;
@@ -138,7 +145,8 @@ footer{
 
 .contact-form form button:hover,
 .contact-form form button:focus {
-    background: rgb(211, 22, 201;
-    color: rgb(211, 22, 201;
+    background: rgb(211, 22, 201);
+    color: white;
     transition: background-color 1s ease-out;
     outline: 0;
+}
