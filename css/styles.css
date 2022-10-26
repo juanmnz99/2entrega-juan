@@ -11,9 +11,8 @@ header{
     margin: 10px;
     align-items: center;
 }
-h2{
+.menu-logo h2{
     font-weight: 800; 
-    margin-right: 80px;
 }
 ul{
     display: flex;
@@ -21,7 +20,11 @@ ul{
     margin: 0;
     padding: 0;
 }
-.menu-link img{
+.menu-logo{
+    display: flex;
+    align-items: center;
+}
+.menu-logo img{
     height: 80px;
     margin-left: 50px;
 }
