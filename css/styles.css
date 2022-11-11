@@ -25,8 +25,9 @@ ul{
     align-items: center;
 }
 .menu-logo img{
-    height: 80px;
+    height: 200px;
     margin-left: 50px;
+    width: 200PX;
 }
 .menu-link a{
     display: flex;
@@ -51,7 +52,6 @@ ul{
     }
     
 }
-
 .cuerpo {
     background-color: black;
     
@@ -71,6 +71,12 @@ ul{
     background-color:rgb(211, 22, 201);
     color:black;
     font-weight: 600;
+}
+.card{
+    background-color: gray;  
+}
+.CARTA{
+    margin-bottom: 20px;
 }
 .card-body{
     background-color: grey;
@@ -97,6 +103,9 @@ h3{
 }
 footer{
     background-color: gray;
+}
+.espacio{
+    margin: 20px;
 }
 .categorias{
     display: list-item;
@@ -162,5 +171,3 @@ footer{
     transition: background-color 1s ease-out;
     outline: 0;
 }
-/* catalogo */
-
